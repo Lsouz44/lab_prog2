@@ -36,9 +36,9 @@ int main() {
     printf("Digite a quantidade de discos :\n");
     scanf("%d", &discos);
 
-    printf("- - - - - - - RECURSIVO - - - - - - - -\n");
+    printf("\n- - - - - - - RECURSIVO - - - - - - - -\n");
     rec_hanoi(discos, 'A', 'C', 'B');
-    printf("- --- -- --- -- --- -- --- -- --- -- --- -- --- -- --- -\n");
+    printf("----------------------------------------\n");
 
     return 0;
 }
