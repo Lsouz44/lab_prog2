@@ -54,8 +54,8 @@ int main() {
 
     int menor1 = menorElemento(vet1, TAM);
     int menor2 = menorElemento(vet2, TAM);
-    printf("Menor elemento do vetor 1: %d\n", menor1);
-    printf("Menor elemento do vetor 2: %d\n", menor2);
+    printf("Menor elemento do vetor 1: %.2lf\n", menor1);
+    printf("Menor elemento do vetor 2: %.2lf\n", menor2);
 
     double media1 = media(vet1, TAM);
     double media2 = media(vet2, TAM);
