@@ -12,7 +12,7 @@ int main() {
     char vet[] = {'a', 'b', 'c', 'd', 'e'};
     int tam = sizeof(vet) / sizeof(vet[0]);
 
-    printf("Elements do vetor em ordem descrescente: ");
+    printf("Elementos do vetor em ordem descrescente: ");
     Vetordecrescente(vet, tam);
     printf("\n");
 
