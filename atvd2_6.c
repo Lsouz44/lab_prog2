@@ -33,7 +33,7 @@ void rec_hanoi(int n, char origem, char dest, char trab) {
 // MAIN
 int main() {
     int discos;
-    printf("Digite a quantidade de discos :\n");
+    printf("Digite a quantidade de discos: ");
     scanf("%d", &discos);
 
     printf("\n- - - - - - - RECURSIVO - - - - - - - -\n");
