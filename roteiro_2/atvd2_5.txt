@@ -1,0 +1,7 @@
+2.5 - Explique por que a declaração "O tempo de execução no algoritmo A é no mínimo O(n²)"
+não tem sentido.
+
+Porque a notação "O" (Big O) é usada para descrever limites superiores ou assintóticos no
+desempenho de um algoritmo, não limites inferiores ou mínimos.
+Nessa declaração o correto a se utilizar era a notação "Ω" (Big Omega), que descreve justamente
+limites inferiores ou mínimos no desempenho de um algoritmo.
