@@ -1,0 +1,30 @@
+2.1 Suponha que estamos comparando implementações de ordenação por inserção e ordenação
+por intercalação na mesma máquina. Para entradas de tamanho n, a ordenação por inserção
+é executada em 8n² passos, enquanto a ordenação por intercalação é executada em 64n lg n
+passos. Para quais valores de n a ordenação por inserção é pior do que a ordenação por
+intercalação?
+
+Para a ordenação por inserção ser pior do que a ordenação por intercalação, os passos
+executados para uma determinada entrada n da ordenação por inserção deve ser maior do
+que a da ordenação por intercalação.
+
+Seguindo a seguinte desigualdade.
+
+Ord. inserção  |  Ord. intercalação
+
+      8n²      >      64n lg n 
+       n²      >       8n lg n
+       n       >       8 lg n
+
+A partir da entrada de tamanho n >= 44, a ordenação por inserção passa a ser pior do que
+a ordenação por intercalação. Pois satisfaz a igualdade
+
+ 256 > 64   (n=256) Satisfaz
+ 128 > 56   (n=128) Satisfaz
+ 64 > 48    (n=64)  Satisfaz
+ 44 > 43,67 (n=44)  Satisfaz
+ 32 < 40    (n=32)  Não satisfaz
+ 16 < 32    (n=16)  Não satisfaz
+ 8  < 24    (n=8)   Não satisfaz
+ 4  < 16    (n=4)   Não satisfaz
+ 2  < 8     (n=2)   Não satisfaz
