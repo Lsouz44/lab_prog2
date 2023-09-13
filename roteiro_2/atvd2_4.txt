@@ -1,0 +1,8 @@
+2.3 - O que significa dizer que uma função g(n) é Ω(f(n))?
+
+Significa que, para valores suficientemente grandes de "n", a função g(n) cresce pelo menos
+na mesma taxa ou a uma taxa superior à função f(n). Em outras palavras, g(n) está limitada
+inferiormente por f(n) para valores grandes de "n".
+A notação "Ω" é usada para representar a complexidade assintótica de um algoritmo ou função
+em relação a outra. Ela é chamada de "Big Omega" e é usada para descrever o comportamento do
+melhor caso de tempo de execução de um algoritmo.
