@@ -8,16 +8,13 @@ Para a ordenação por inserção ser pior do que a ordenação por intercalaç�
 executados para uma determinada entrada n da ordenação por inserção deve ser maior do
 que a da ordenação por intercalação.
 
-Seguindo a seguinte desigualdade.
+Seguindo a seguinte desigualdade:
 
 Ord. inserção  |  Ord. intercalação
 
-      8n²      >      64n lg n 
-       n²      >       8n lg n
+      8n²      >      64n lg n         Divide ambos lados por 8
+       n²      >       8n lg n         Divide ambos lados por n
        n       >       8 lg n
-
-A partir da entrada de tamanho n >= 44, a ordenação por inserção passa a ser pior do que
-a ordenação por intercalação. Pois satisfaz a igualdade
 
  256 > 64   (n=256) Satisfaz
  128 > 56   (n=128) Satisfaz
@@ -28,3 +25,6 @@ a ordenação por intercalação. Pois satisfaz a igualdade
  8  < 24    (n=8)   Não satisfaz
  4  < 16    (n=4)   Não satisfaz
  2  < 8     (n=2)   Não satisfaz
+
+A partir da entrada de tamanho n = 44, a ordenação por inserção passa a ser pior do que
+a ordenação por intercalação. Pois satisfaz a desigualdade. 
