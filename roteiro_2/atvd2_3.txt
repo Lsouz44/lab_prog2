@@ -1,0 +1,8 @@
+2.3 O que significa dizer que uma função g(n) é O(f(n))?
+
+Significa que para valores suficientemente grandes de "n", a função g(n) cresce no máximo
+na mesma taxa ou a uma taxa inferior à função f(n). Em outras palavras, g(n) está limitada
+superiormente por f(n) para valores grandes de "n."
+A notação "O" é usada para representar a complexidade assintótica de um algoritmo ou função
+em relação a outra. É chamada de "Big O" e é usada para descrever o comportamento do pior
+caso de tempo de execução de um algoritmo.
