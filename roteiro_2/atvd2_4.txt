@@ -1,4 +1,4 @@
-2.3 - O que significa dizer que uma função g(n) é Ω(f(n))?
+2.4 - O que significa dizer que uma função g(n) é Ω(f(n))?
 
 Significa que, para valores suficientemente grandes de "n", a função g(n) cresce pelo menos
 na mesma taxa ou a uma taxa superior à função f(n). Em outras palavras, g(n) está limitada
