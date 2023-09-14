@@ -1,7 +1,7 @@
 2.2 Qual é o menor valor de n tal que um algoritmo cujo tempo de execução é 100n² funciona
 mais rapidamente que um algoritmo cujo tempo de execução é 2^n na mesma máquina?
 
-Para achar o o menor valor de n, precisamos satisfazer a igualdade:
+Para achar o menor valor de n, precisamos satisfazer a igualdade:
 
 100n² < 2^n
 
