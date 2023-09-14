@@ -1,0 +1,32 @@
+2.6 - Considere dois algoritmos A e B com funções de complexidade de tempo a(n) = n² − n + 500
+e b(n) = 47n + 47, respectivamente. Para quais valores de n o algoritmo A leva menos tempo
+para executar do que B?
+
+Para achar o valor de n, precisamos satisfazer a igualdade:
+
+      a(n)      <  b(n)
+    n²−n+500    < 47n+47
+n²-n+500-47n-47 <   0
+  n²-48n+453    <   0
+
+Aplicando a fórmula de báskhara:
+
+n = (-(-48)) ± √((-48)² - 4(1)(453))) / (2(1))
+n = (48 ± √(2.304 - 1.812)) / 2
+n = (48 ± √(492)) / 2
+n1 = (48 + 22,18) / 2 = 35,09
+n2 = (48 - 22,18) / 2 = 12,91
+
+O valor n = 12,91 até n = 35,09 , é o intervalo em que o algoritmo A leva menos tempo para
+executar do que o B.
+
+ 1.760 > 1.739   (n=36)  Não satisfaz
+ 1.690 < 1.692   (n=35)  Satisfaz
+ 1.492 < 1.551   (n=32)  Satisfaz
+ 1.052 < 1.175   (n=24)  Satisfaz
+ 740   < 799     (n=16)  Satisfaz
+ 656   < 658     (n=13)  Satisfaz
+ 632   > 611     (n=12)  Não atisfaz
+ 556   > 423     (n=8)   Não satisfaz
+ 512   > 235     (n=4)   Não satisfaz
+ 502   > 141     (n=2)   Não satisfaz
