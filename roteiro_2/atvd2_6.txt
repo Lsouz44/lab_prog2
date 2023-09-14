@@ -2,7 +2,7 @@
 e b(n) = 47n + 47, respectivamente. Para quais valores de n o algoritmo A leva menos tempo
 para executar do que B?
 
-Para achar o valor de n, precisamos satisfazer a igualdade:
+Para achar o valor de n, precisamos satisfazer a desigualdade:
 
       a(n)      <  b(n)
     n²−n+500    < 47n+47
