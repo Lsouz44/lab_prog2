@@ -1,0 +1,15 @@
+2.8 Considerando apenas a operação (v[i] > MAX), mostre que o algoritmo maior é O(n), Ω(n)
+e Θ(n):
+
+int maior (int*v, int n){
+  int i, MAX;
+  MAX = v [0];
+  for(i=1; i<n; i++)
+    if(v[i] > MAX)
+      MAX = v[i];
+  return MAX;
+}
+
+Em qualquer cenário (pior caso, melhor caso ou caso médio), ele percorre todos os
+elementos do vetor de entrada "n" vezes para encontrar o elemento máximo, resultando em um
+desempenho linear em relação ao tamanho do vetor "n".
