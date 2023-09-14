@@ -1,0 +1,14 @@
+2.7 - Considerando a operação (s = 1), calcule a complexidade, no pior caso, do trecho de
+código abaixo:
+
+{
+int i,j,k,s;
+for(i=0; i < N-1; i++)
+  for(j=i+1; j < N; j++)
+    for(k=1; k < j; k++)
+      s = 1;
+}
+
+A complexidade para o trecho de código apresentado, no pior caso , é O(n³).
+Complexidade de ordem cúbica, considerando os 3 laços aninhados (O(n*n*n)) e uma atribuição
+simples no nó mais interno que é feita em tempo constante O(1).
